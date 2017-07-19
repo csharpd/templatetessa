@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
 <link rel="stylesheet" href="stylesheets/style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
@@ -15,25 +15,24 @@ body {font-size:16px;}
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar sidebar-style w3-collapse w3-top w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Company<br>Name</b></h3>
-  </div>
-  <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  <div class="w3-bar-block set-navigation">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Psychotherapy</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen ml25">Dream Work</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen ml25">Body Wisdom</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Creative Mentoring</a>
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Fees</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">About</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Contact</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Company Name</span>
+<header class="w3-container w3-top w3-hide-large sidebar-style w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
+
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -54,46 +53,26 @@ body {font-size:16px;}
   
 
   <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
-   
-  </div>
 
   <div class="w3-row-padding">
     <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">10 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">20% furniture discount</li>
-        <li class="w3-padding-16">Good deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 199</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
+      <div style="max-width:215px;margin: 0 auto;">
+        <p style="font-size:20px;line-height:1.2;padding-bottom:30px;color:#7fc0a9">Body Wisdom</p>
+        <p class="page-copy mb10">As children, we learn about the world through our bodies. As adults in the post-industrial west, we can easily lose touch with our innate body wisdom, overriding the messages the body is trying to send us in order to meet deadlines, be productive, become or stay successful. As a survival strategy, we try to comfort ourselves by binging on food, drugs or alcohol or to control ourselves by fasting. Before we know it, our body, which would ordinarily be our best friend, has become an enemy.</p>
+        <p class="page-copy">In my practice as a psychotherapist, I pay close attention to the wisdom of the body and the messages it is seeking to convey.  A yoga practitioner with a longstanding interest in eastern philosophical traditions, I incorporate some of the teachings of these traditions into my sessions, using simple movement work and mindful breathing techniques to help allay patterns of anxiety and stress and to restore health and wellbeing.</p>
+      </div>
     </div>
         
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">50 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">50% furniture discount</li>
-        <li class="w3-padding-16">GREAT deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 249</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
+    <div class="w3-half mt60 mob-mt0">
+      <div style="max-width:215px;margin: 0 auto;">
+        <div id="circle" class="mb50">
+            <img src="assets/transparent_circle.png">
+        </div>
+        <p class="page-quote">
+          ‘I contacted Tessa for support when my mother was terminally ill. We worked together through her death and through the difficult months that followed. Every session with Tessa gave me a new insight about my life. It made an immeasurable difference to me to have this support and to learn practices I could use to manage my feelings during such a challenging and transformative period’ 
+        </p>
+        <p class="page-quote set-right">— Matthew, company director</p>
+      </div>
     </div>
   </div>
   
