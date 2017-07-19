@@ -725,6 +725,14 @@ a {
     .mob-mt10 {
         margin-top: 10px!important;
     }
+    
+    .mob-mb0 {
+        margin-bottom: 0px!important;
+    }
+
+    .mob-mb10 {
+        margin-bottom: 10px!important;
+    }
 
     .mob-mb30 {
         margin-bottom: 30px!important;
@@ -739,6 +747,12 @@ a {
         margin: 0 auto;
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .mob-set-homepage-circle {
+        max-width: 240px;
+        margin: 0 auto;
+        padding-top: 40px;
     }
 
     .mob-linebreak{
@@ -1608,4 +1622,8 @@ a {
 #circle img:hover{
     opacity: 1!important;
     cursor: auto;
+}
+
+.emphasise {
+    font-weight: bold;
 }
