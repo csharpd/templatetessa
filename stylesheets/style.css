@@ -225,11 +225,7 @@ h6 {
 .w3-wide {
     letter-spacing: 4px
 }
-hr {
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0
-}
+
 .w3-image {
     max-width: 100%;
     height: auto
@@ -685,9 +681,6 @@ a {
 .w3-show-inline-block {
     display: inline-block!important
 }
-.mob-mt0{
-    margin-top:0px !important;
-}
 
 @media (max-width: 600px) {
     .w3-modal-content {
@@ -721,6 +714,38 @@ a {
     .w3-dropdown-click.w3-mobile .w3-button {
         width: 100%
     }
+    .mob-mt130 {
+        margin-top: 130px!important;
+    }
+
+    .mob-mt0 {
+        margin-top: 0px!important;
+    }
+
+    .mob-mt10 {
+        margin-top: 10px!important;
+    }
+
+    .mob-mb80 {
+        margin-bottom: 80px!important;
+    }
+
+    .mob-set-pagequote {
+        max-width: 240px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mob-linebreak{
+        display: block!important;
+        margin: 0!important;
+    }
+
+    .mob-teal{
+        background-color: 
+        color: #fff!important;
+    }
 }
 @media (max-width: 768px) {
     .w3-modal-content {
@@ -744,6 +769,14 @@ a {
 @media (max-width: 992px) and (min-width: 601px) {
     .w3-hide-medium {
         display: none!important
+    }
+
+    .tab-mt200 {
+        margin-top:200px!important;
+    }
+
+    .tab-mt100 {
+        margin-top: 100px!important;
     }
 }
 @media (max-width: 992px) {
@@ -1476,12 +1509,12 @@ a {
     background-color: #7fc0a9;
 }
 .page-copy {
-    font-size: 12px;
-    line-height: 1.33;
+    font-size: 13px;
+    line-height: 1.4;
     color: #9b9b9b
 }
 .page-quote {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 2;
     color: #9b9b9b;
     font-family: 'Libre Baskerville', serif;
@@ -1490,9 +1523,18 @@ a {
     text-align: right;
 }
 
+.set-pagequote{
+    width:230px;
+    margin-left:5px;"
+}
+
 .set-navigation {
     margin-top: 100px;
     padding-left: 35px;
+}
+
+.mob-linebreak {
+    display: none;
 }
 
 .ml25{
@@ -1502,9 +1544,22 @@ a {
 .mb10 {
     margin-bottom: 10px;
 }
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
 .mb50 {
     margin-bottom: 50px;
 }
 .mt60 {
     margin-top: 60px;
+}
+
+.mt70{
+    margin-top: 70px;
+}
+
+.mt145 {
+    margin-top: 145px;
 }
