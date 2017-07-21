@@ -1583,7 +1583,10 @@ a {
     margin-left:5px;
 }
 
-
+.set-thirdcol {
+    width:260px;
+    margin: 0 auto;
+}
 
 .set-navigation {
     margin-top: 100px;
@@ -1646,4 +1649,8 @@ a {
 
 .emphasise {
     font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
 }
