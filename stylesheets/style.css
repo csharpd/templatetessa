@@ -772,6 +772,7 @@ a {
     .w3-modal {
         padding-top: 50px
     }
+
 }
 @media (min-width: 993px) {
     .w3-modal-content {
@@ -814,6 +815,11 @@ a {
 
     .tab-footer {
         background-color: #7fc0a9;
+    }
+
+    .homepage-quote {
+        margin-left: 10px!important;
+        width:215px!important;
     }
 }
 .w3-top,
@@ -1566,6 +1572,21 @@ a {
     color: #9b9b9b;
     font-family: 'Libre Baskerville', serif;
 }
+
+.homepage-header {
+    font-size: 18px;
+    line-height: 30px;
+    color: #9b9b9b;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.homepage-copy {
+    font-size: 13px;
+    line-height: 24px;
+    color: #9b9b9b;
+    font-family: 'Libre Baskerville', serif;
+}
+
 .set-right {
     text-align: right;
 }
@@ -1632,16 +1653,6 @@ a {
 
 .mt145 {
     margin-top: 145px;
-}
-
-#circle img {
-    opacity :1!important;
-    cursor: auto;
-}
-
-#circle img:hover{
-    opacity: 1!important;
-    cursor: auto;
 }
 
 .emphasise {
