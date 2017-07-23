@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
-<title>WIP!</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
-<link rel="stylesheet" href="stylesheets/style.css">
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-</style>
+  <head>
+    <title>WIP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  </head>
 <body>
 
 <!-- Sidebar/menu -->
@@ -47,7 +43,7 @@ body {font-size:16px;}
     <div class="w3-half w3-margin-bottom mt145 tab-mt200 mob-mt130">
       <div style="max-width:215px;margin: 0 auto;">
         <p style="font-size:20px;line-height:1.4;padding-bottom:10px;color:#7fc0a9">Psychotherapy & Creative Mentoring</p>
-        <p style="font-size: 14px;line-height: 1.4;color: #9b9b9b;padding-bottom:20px">with <span class="emphasise">Tessa Strickland</span></br>MA Cantab, BWY</p>
+        <p style="font-size: 14px;line-height: 1.4;color: #9b9b9b;padding-bottom:20px">with <span class="emphasise">Tessa Strickland</span><br/>MA Cantab, BWY</p>
         <hr style="width:165px;border:2px solid #7fc0a9;float:left;">
         <p class="page-copy mb10" style="clear:left;padding-top:20px;">Do you need help in finding your way to a <span class="emphasise">fulfilling life?</span></p><p class="page-copy mb30">I offer psychotherapy or creative mentoring to individuals who are facing significant change or who want something in their lives to shift but need help to work out what it is and what action to take.</p>
         <hr style="width:165px;border:2px solid #7fc0a9" class="mob-linebreak">
@@ -73,8 +69,8 @@ body {font-size:16px;}
 </div>
 
 <!-- W3.CSS Container -->
-<div class="footer tab-footer w3-container w3-padding-32" style="margin-top:75px;padding-right:58px;"><p>Content ©2012 Tessa Strickland </br>
-All Rights Reserved </br></br>Made by <a href="https://www.breadundbutter.com" title="breadundbutter" target="_blank" class="w3-hover-opacity">BreadundButter</a></p></div>
+<div class="footer tab-footer w3-container w3-padding-32" style="margin-top:75px;padding-right:58px;"><p>Content ©2012 Tessa Strickland <br/>
+All Rights Reserved <br/><br/>Made by <a href="https://www.breadundbutter.com" title="breadundbutter" target="_blank" class="w3-hover-opacity">BreadundButter</a></p></div>
 
 <script>
 // Script to open and close sidebar
@@ -86,14 +82,6 @@ function w3_open() {
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
 }
 </script>
 

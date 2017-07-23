@@ -182,6 +182,7 @@ textarea {
     font: inherit
 }
 /* End extract */
+ body,h1,h2,h3,h4,h5 {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
 
 html,
 body {
@@ -212,16 +213,7 @@ h6 {
 .w3-serif {
     font-family: serif
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-weight: 400;
-    margin: 10px 0
-}
+
 .w3-wide {
     letter-spacing: 4px
 }
@@ -1591,6 +1583,7 @@ a {
 .set-navigation {
     margin-top: 100px;
     padding-left: 35px;
+    font-size:16px;
 }
 
 .footer p {
@@ -1658,3 +1651,5 @@ a {
 .italico {
     font-style: italic;
 }
+
+.w3-half img{margin-bottom:-6px;margin-top:16px;}

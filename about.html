@@ -1,113 +1,101 @@
 <!DOCTYPE html>
 <html>
-<title>WIP!</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
-<link rel="stylesheet" href="stylesheets/style.css">
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-</style>
-<body>
+  <head>
+    <title>WIP!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  </head>
+  <body>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar sidebar-style w3-collapse w3-top w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px;text-align:right;padding-right:30px;">X</a>
-  <div class="w3-bar-block set-navigation">
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Home</a> 
-    <a href="psychotherapy.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Psychotherapy</a> 
-    <a href="dreamwork.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen ml25">Dream Work</a> 
-    <a href="bodywisdom.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen ml25">Body Wisdom</a> 
-    <a href="creativementoring.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Creative Mentoring</a>
-    <a href="fees.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Fees</a> 
-    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">About</a> 
-    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Contact</a>
-  </div>
-</nav>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar sidebar-style w3-collapse w3-top w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px;text-align:right;padding-right:30px;">X</a>
+    <div class="w3-bar-block set-navigation">
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Home</a> 
+      <a href="psychotherapy.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Psychotherapy</a> 
+      <a href="dreamwork.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen ml25">Dream Work</a> 
+      <a href="bodywisdom.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen ml25">Body Wisdom</a> 
+      <a href="creativementoring.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Creative Mentoring</a>
+      <a href="fees.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Fees</a> 
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">About</a> 
+      <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-darkgreen">Contact</a>
+    </div>
+  </nav>
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large sidebar-style w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large sidebar-style w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
 
-</header>
+  </header>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
-  
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+    
 
-  <!-- Packages / Pricing Tables -->
+    <!-- Packages / Pricing Tables -->
 
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom mt145 tab-mt200 mob-mt130">
-      <div style="max-width:229px;margin: 0 auto;">
-        <p style="font-size:20px;line-height:1.4;padding-bottom:10px;color:#7fc0a9">Psychotherapy & Creative Mentoring</p>
-        <p style="font-size: 14px;line-height: 1.4;color: #9b9b9b;padding-bottom:20px">with <span class="emphasise">Tessa Strickland</span></br>MA Cantab, BWY</p>
-        <div class="page-copy">
-        <p class="mb10">I first became interested in psychotherapy as a young mother, over thirty years ago. Motherhood was changing and redefining my response to life and I needed to make sense of my inner landscape. It worked.  This was the start of a lasting fascination with soul work. Areas in which I specialise are recovery from depression, including post-natal depression; fulfilling creative potential; living with eating disorders; navigating change in close relationships and living with bereavement or loss.</p>
+    <div class="w3-row-padding">
+      <div class="w3-half w3-margin-bottom mt145 tab-mt200 mob-mt130">
+        <div style="max-width:229px;margin: 0 auto;">
+          <p style="font-size:20px;line-height:1.4;padding-bottom:10px;color:#7fc0a9">Psychotherapy & Creative Mentoring</p>
+          <p style="font-size: 14px;line-height: 1.4;color: #9b9b9b;padding-bottom:20px">with <span class="emphasise">Tessa Strickland</span></br>MA Cantab, BWY</p>
+          <div class="page-copy">
+          <p class="mb10">I first became interested in psychotherapy as a young mother, over thirty years ago. Motherhood was changing and redefining my response to life and I needed to make sense of my inner landscape. It worked.  This was the start of a lasting fascination with soul work. Areas in which I specialise are recovery from depression, including post-natal depression; fulfilling creative potential; living with eating disorders; navigating change in close relationships and living with bereavement or loss.</p>
 
-        <p class="mb10">I have travelled extensively and lived in France, Switzerland, Italy and Japan.  I have a particular interest in inter-cultural relationship and the ways in which cultural background helps to forge our sense of identity.</p>
+          <p class="mb10">I have travelled extensively and lived in France, Switzerland, Italy and Japan.  I have a particular interest in inter-cultural relationship and the ways in which cultural background helps to forge our sense of identity.</p>
 
-        <p class="mb10">I trained in Core Process Psychotherapy at the Karuna Institute, Devon. I practise as an accredited UKCP member and adhere to the council’s code of ethics. I also hold a Masters Degree in Classics from Cambridge University and a BWY (British Wheel of Yoga) accreditation as a yoga teacher. My work is regularly supervised, in accordance with UKCP requirements.</p>
+          <p class="mb10">I trained in Core Process Psychotherapy at the Karuna Institute, Devon. I practise as an accredited UKCP member and adhere to the council’s code of ethics. I also hold a Masters Degree in Classics from Cambridge University and a BWY (British Wheel of Yoga) accreditation as a yoga teacher. My work is regularly supervised, in accordance with UKCP requirements.</p>
 
-        <p class="mb10">Core Process Psychotherapy is an integrative and humanistic model, grounded in the Buddhist understanding of mind. This understanding is combined with the insights of contemporary western psychotherapy and neuroscience.</p>
+          <p class="mb10">Core Process Psychotherapy is an integrative and humanistic model, grounded in the Buddhist understanding of mind. This understanding is combined with the insights of contemporary western psychotherapy and neuroscience.</p>
 
-        <p class="mb30">I practise from my home in a peaceful area of north-east Somerset, six miles south of Bath. I also run a clinic every Tuesday in central Oxford. </p>
-        <hr style="width:10px;border:2px solid #7fc0a9" class="mob-linebreak">
+          <p class="mb30">I practise from my home in a peaceful area of north-east Somerset, six miles south of Bath. I also run a clinic every Tuesday in central Oxford. </p>
+          <hr style="width:10px;border:2px solid #7fc0a9" class="mob-linebreak">
+          </div>
+        </div>
+      </div>
+          
+      <div class="w3-half mt70 tab-mt100 mob-mt0">
+        <div class="set-thirdcol mob-set-pagequote">
+          <div id="circle" class="mb60 mob-mb30">
+              <img style="width:230px" src="assets/tessa.png">
+          </div>
+          <div class="page-quote set-pagequote mob-mt10 mob-mb80">
+            <p >
+              ‘Tessa really encouraged me and helped me to take action after months of frustration at work.
+              Our sessions gave me the push I needed to do something and change my situation’   
+            </p>
+            <p class="set-right ">— Maria, immunologist
+  </p>
+          </div>
         </div>
       </div>
     </div>
-        
-    <div class="w3-half mt70 tab-mt100 mob-mt0">
-      <div class="set-thirdcol mob-set-pagequote">
-        <div id="circle" class="mb60 mob-mb30">
-            <img style="width:230px" src="assets/tessa.png">
-        </div>
-        <div class="page-quote set-pagequote mob-mt10 mob-mb80">
-          <p >
-            ‘Tessa really encouraged me and helped me to take action after months of frustration at work.
-            Our sessions gave me the push I needed to do something and change my situation’   
-          </p>
-          <p class="set-right ">— Maria, immunologist
-</p>
-        </div>
-      </div>
-    </div>
+
+  <!-- End page content -->
   </div>
 
-<!-- End page content -->
-</div>
+  <!-- W3.CSS Container -->
+  <div class="footer tab-footer w3-container w3-padding-32" style="margin-top:75px;padding-right:58px;"><p>Content ©2012 Tessa Strickland </br>
+  All Rights Reserved </br></br>Made by <a href="https://www.breadundbutter.com" title="breadundbutter" target="_blank" class="w3-hover-opacity">BreadundButter</a></p></div>
 
-<!-- W3.CSS Container -->
-<div class="footer tab-footer w3-container w3-padding-32" style="margin-top:75px;padding-right:58px;"><p>Content ©2012 Tessa Strickland </br>
-All Rights Reserved </br></br>Made by <a href="https://www.breadundbutter.com" title="breadundbutter" target="_blank" class="w3-hover-opacity">BreadundButter</a></p></div>
+  <script>
+  // Script to open and close sidebar
+  function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+  }
+   
+  function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+  }
+  </script>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
-
-</body>
+  </body>
 </html>
