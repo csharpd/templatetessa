@@ -1600,6 +1600,7 @@ a {
     margin-top: 100px;
     padding-left: 35px;
     font-size:16px;
+    font-weight: bold;
 }
 
 .footer p {
@@ -1636,6 +1637,10 @@ a {
 
 .mb60 {
     margin-bottom: 50px;
+}
+
+.mt100 {
+    margin-top: 100px;
 }
 
 .mt60 {
